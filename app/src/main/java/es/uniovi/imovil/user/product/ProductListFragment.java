@@ -35,11 +35,12 @@ public class ProductListFragment extends Fragment implements AdapterView.OnItemC
         String [] products = getResources().getStringArray(R.array.products);
         String [] types = getResources().getStringArray(R.array.types);
         String [] descriptions = getResources().getStringArray(R.array.descriptions);
+        String [] quantity= getResources().getStringArray(R.array.quantity);
 
         ListView lvItems =
                 (ListView) rootView.findViewById(R.id.list_view_product);
 
-        mAdapter = new ProductAdapter(getActivity(), createProductList(products, types, descriptions));
+        mAdapter = new ProductAdapter(getActivity(), createProductList(products, types, descriptions,quantity));
         lvItems.setAdapter(mAdapter);
         lvItems.setOnItemClickListener(this);
 
@@ -53,7 +54,7 @@ public class ProductListFragment extends Fragment implements AdapterView.OnItemC
     }
 
     private List<Product> createProductList(String[] names, String[] types,
-                                            String[] descriptions) {
+                                            String[] descriptions,String[] quantity) {
 
         if (names.length != types.length) {
             throw new IllegalStateException();
@@ -62,7 +63,7 @@ public class ProductListFragment extends Fragment implements AdapterView.OnItemC
         ArrayList<Product> products = new ArrayList<Product>(names.length);
         for (int i = 0; i < names.length; i++) {
 
-            products.add(new Product(names[i], types[i], descriptions[i]));
+            products.add(new Product(names[i], types[i], descriptions[i],quantity[i]));
         }
         return products;
     }

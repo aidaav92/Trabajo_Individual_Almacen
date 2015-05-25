@@ -29,7 +29,7 @@ public class MainActivity extends ActionBarActivity implements ProductListFragme
     }
 
 	private List<Product> createProductList(String[] names, String[] types,
-                                            String[] descriptions) {
+                                            String[] descriptions,String[] quantity) {
 		
 		if (names.length != types.length) {
 			throw new IllegalStateException();
@@ -37,7 +37,7 @@ public class MainActivity extends ActionBarActivity implements ProductListFragme
 			
 		ArrayList<Product> products = new ArrayList<Product>(names.length);
 		for (int i = 0; i < names.length; i++) {
-			products.add(new Product(names[i], types[i], descriptions[i]));
+			products.add(new Product(names[i], types[i], descriptions[i],quantity[i]));
 		}
 		return products;
 	}
@@ -67,14 +67,15 @@ public class MainActivity extends ActionBarActivity implements ProductListFragme
     public void onProductSelected(Product product) {
         if ( !mTwoPanes ) {
             Intent intent = new Intent(this, ProductDetailsActivity.class);
+            intent.putExtra(ProductDetailsActivity.QUANTITY,product.getQuantity());
             intent.putExtra(ProductDetailsActivity.DESCRIPTION, product.getDescription());
             startActivity(intent);
         } else {
             FragmentManager fragmentManager = getSupportFragmentManager();
             ProductDetailsFragment fragment = (ProductDetailsFragment)
                     fragmentManager.findFragmentById(R.id.product_details_frag);
+            fragment.setQuantity(product.getQuantity());
             fragment.setDescription(product.getDescription());
-           // fragment.setImage(product.get);
         }
 
     }

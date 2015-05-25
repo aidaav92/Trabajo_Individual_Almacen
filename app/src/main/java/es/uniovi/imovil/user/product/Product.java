@@ -5,8 +5,9 @@ public class Product {
 	private String mName;
 	private String mType;
 	private String mDescription;
+	private String mQuantity;
 
-	public Product(String name, String type, String description) {
+	public Product(String name, String type, String description,String quantity) {
 		
 		if (name == null || type == null || name.isEmpty() || type.isEmpty()) {
 			throw new IllegalArgumentException();
@@ -15,6 +16,7 @@ public class Product {
 		mName = name;
 		mType = type;
         mDescription = description;
+		mQuantity = quantity;
 	}
 
 	public String getName() {
@@ -28,4 +30,6 @@ public class Product {
     public String getDescription(){
         return mDescription;
     }
+
+	public String getQuantity(){return mQuantity;}
 }

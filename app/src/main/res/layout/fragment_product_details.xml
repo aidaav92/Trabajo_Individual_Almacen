@@ -1,5 +1,10 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+<RelativeLayout
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="es.uniovi.imovil.user.product.ProductDetailsFragment">
 
@@ -7,7 +12,6 @@
         android:id="@+id/LCantidad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textViewDescription"
         android:gravity="center_horizontal"
         android:layout_marginTop="20dp">
         <TextView
@@ -22,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:id="@+id/textViewDescription"
+            android:id="@+id/textViewCantidad"
             android:layout_centerHorizontal="true"/>
 
     </LinearLayout>
@@ -31,7 +35,7 @@
         android:id="@+id/LAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ivProduct"
+        android:layout_below="@+id/tvDescription"
         android:gravity="center_horizontal">
         <TextView
             style="@style/Subtitulo"
@@ -52,15 +56,17 @@
             android:imeOptions="actionDone" />
     </LinearLayout>
 
-
-    <ImageView
-        android:id="@+id/ivProduct"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:padding="16dp"
-        android:layout_marginTop="8dp"
+    <TextView
+        style="@style/Normal"
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/valor_add"
         android:layout_below="@+id/LCantidad"
-        android:layout_gravity="center" />
+        android:layout_centerHorizontal="true" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -85,11 +91,11 @@
             android:layout_height="wrap_content"
             android:text="output"
             android:id="@+id/buttonOutput"
-            android:layout_below="@+id/linearLayout"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
 
     </LinearLayout>
 
-
 </RelativeLayout>
+
+    </ScrollView>

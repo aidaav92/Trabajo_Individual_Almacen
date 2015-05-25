@@ -24,20 +24,26 @@
     <!-- Fin strings tipos de productos -->
 
     <!-- Strings nombres de descripciones de productos -->
-    <string name="d_product_1">5 </string>
-    <string name="d_product_2">25</string>
-    <string name="d_product_3">67</string>
-    <string name="d_product_4">890</string>
-    <string name="d_product_5">345</string>
-    <string name="d_product_6">245</string>
-    <string name="d_product_7">90</string>
-    <string name="d_product_8">0</string>
-    <string name="d_product_9">33</string>
-    <string name="d_product_10">23
+    <string name="d_product_1">El plátano es una planta herbácea, que pertenece a la familia musácea, y que ostenta normalmente entre 3 o 4 metros de alto. Su tallo está rodeado por las vainas de las hojas y el fruto que resulta de él, que es una baya que tiene la particularidad de crecer en racimos, es ampliamente apreciado y consumido en el mundo como alimento. Popularmente se lo conoce como banano o banana.</string>
+    <string name="d_product_2">Citrus × limon, el limonero, es un pequeño árbol frutal perenne que puede alcanzar más de 4 m de altura. Su fruto es el limón (en árabe: ليمون, laimún, del persa laimú o laimún1 ) una fruta comestible de sabor ácido y extremadamente fragante que se usa en la alimentación. El limonero posee una madera con corteza lisa y madera dura y amarillenta muy apreciada para trabajos de ebanistería. Botánicamente, es una especie híbrida entre C. medica (cidro o limón francés) y C. aurantium (naranjo amargo).2 Aunque otros autores creen que es el resultado de diversos retrocruces entre Citrus medica y Citrus × aurantifolia.</string>
+    <string name="d_product_4">El pomelo, también conocido como toronja o pamplemusa, es el fruto del árbol homónimo que pertenece al género Citrus de la familia de las Rutáceas. Esta familia comprende más de 1.600 especies. El género botánico Citrus es el más importante de la familia, y consta de unas 20 especies con frutos comestibles todos ellos muy abundantes en vitamina C, flavonoides y aceites esenciales. Los frutos, llamados espérides, tienen la particularidad de que su pulpa esta formada por numerosas vesículas llenas de jugo.</string>
+    <string name="d_product_6">Lactuca sativa, la lechuga, es una planta herbácea propia de las regiones semitempladas que se cultiva con fines alimentarios. Debido a las muchas variedades que existen y a su cultivo cada vez mayor en invernaderos, se puede consumir durante todo el año. Normalmente se toma cruda, como ingrediente de ensaladas y otros platos, pero ciertas variedades, sobre todo las de origen chino, poseen una textura más robusta y por ello se emplean cocidas.</string>
+    <string name="d_product_7">Daucus carota subespecie sativus, llamada popularmente zanahoria, es una hortaliza que pertenece a la familia de las umbelíferas, también denominadas apiáceas, y considerada la especie más importante y de mayor consumo dentro de esta familia. Es la forma domesticada de la zanahoria silvestre, oriunda de Europa y Asia sudoccidental. Se cultiva por su raíz mucho más grande, sabrosa y de textura menos fibrosa, pero continúa siendo la misma especie.</string>
+    <string name="d_product_8">Cucumis sativus, conocido popularmente como pepino, es una planta herbácea anual de la familia de las cucurbitáceas.</string>
+    <!-- Fin strings tipos de descripciones de productos -->
 
 
-
-    </string>
+    <!-- Strings nombres de descripciones de productos -->
+    <string name="q_product_1" translatable="false">5 </string>
+    <string name="q_product_2" translatable="false">25</string>
+    <string name="q_product_3" translatable="false">67</string>
+    <string name="q_product_4" translatable="false">890</string>
+    <string name="q_product_5" translatable="false">345</string>
+    <string name="q_product_6" translatable="false">245</string>
+    <string name="q_product_7" translatable="false">90</string>
+    <string name="q_product_8" translatable="false">0</string>
+    <string name="q_product_9" translatable="false">33</string>
+    <string name="q_product_10" translatable="false">23 </string>
     <!-- Fin strings tipos de descripciones de productos -->
 
 
@@ -55,7 +61,10 @@
     <!--Srings fragment product details -->
     <string name="valor_add">Añadir producto</string>
     <string name="quantity"> Cantidad:</string>
-
+    <string name="d_product_3">La naranja es una fruta cítrica comestible obtenida del naranjo dulce (Citrus × sinensis), del naranjo amargo (Citrus × aurantium) y de naranjos de otras especies o híbridos, antiguos híbridos asiáticos originarios de India, Vietnam o el sureste de China.1 Es un hesperidio carnoso de cáscara más o menos gruesa y endurecida, y su pulpa está formada típicamente por once gajos u hollejos llenos de jugo, el cual contiene mucha vitamina C, flavonoides y aceites esenciales.  Es más pequeña y dulce que el pomelo o toronja y más grande, aunque menos perfumada, que la mandarina. Existen numerosas variedades de naranjas, siendo la mayoría híbridos producidos a partir de las especies Citrus maxima, Citrus reticulata (mandarina) y Citrus medica (cidro).</string>
+    <string name="d_product_5">Solanum lycopersicum, conocido comúnmente como jitomate, tomate o tomatera. Es una especie de la familia de las solanáceas originaria de América (Perú o México) y cultivada en todo el mundo para su consumo tanto fresco como procesado de diferentes modos (salsa, puré, zumo, deshidratado, enlatado).</string>
+    <string name="d_product_9">Avena es un género de plantas de la familia de las poáceas, utilizada como alimento y como forraje.  Si bien en épocas tempranas la avena no tuvo la importancia del trigo o la cebada, en Asia Central se cultivaba en buena cantidad, aunque se la consideraba una mala hierba para aquellos. En búsquedas arqueológicas se encontraron pruebas del uso de la avena en Europa Central en la Edad de Bronce. También fueron encontrados granos de este cereal en excavaciones egipcias, aunque no se pudo probar que fuera cultivada.</string>
+    <string name="d_product_10">Trigo (Triticum spp) es el término que designa al conjunto de cereales, tanto cultivados como silvestres, que pertenecen al género Triticum; son plantas anuales de la familia de las gramíneas, ampliamente cultivadas en todo el mundo.La palabra trigo designa tanto a la planta como a sus semillas comestibles, tal y como ocurre con los nombres de otros cereales.  El trigo (de color amarillo) es uno de los tres granos más ampliamente producidos globalmente, junto al maíz y el arroz, y el más ampliamente consumido por el hombre en la civilización occidental desde la antigüedad. El grano del trigo es utilizado para hacer harina, harina integral, sémola, cerveza (véase también: Historia de la cerveza) y una gran variedad de productos alimenticios.  La palabra «trigo» proviene del vocablo latino triticum, que significa ‘quebrado’, ‘triturado’ o ‘trillado’, haciendo referencia a la actividad que se debe realizar para separar el grano de trigo de la cascarilla que lo recubre. Triticum significa, por lo tanto, el grano que es necesario trillar para poder ser consumido; tal como el mijo deriva del latín milium, que significa "molido, molturado", o sea, el grano que es necesario moler para poder ser consumido. El trigo (triticum) es, por lo tanto, una de las palabras más ancestrales para denominar a los cereales (las que se referían a su trituración o molturación).</string>
 
 
 </resources>

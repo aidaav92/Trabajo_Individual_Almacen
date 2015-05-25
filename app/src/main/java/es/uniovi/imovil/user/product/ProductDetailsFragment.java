@@ -17,22 +17,20 @@ import java.util.Random;
 public class ProductDetailsFragment extends Fragment implements
         View.OnClickListener {
     private static final String DESCRIPTION_ARG = "description";
+    private static final String QUANTITY_ARG="quantity";
 
-    private static final String STATE_CURRENT_QUESTION = "mCurrentQuestion";
     private TextView textViewDescription, textViewQuantity;
     private EditText editTextQuantityAdd;
     private Button btninput, btnpoutput;
     private String[] mproductstring;
-    private TypedArray mImageArray;
-    private ImageView mImageView;
     private int valora, valorb, total, mCurrentQuestion;
     private String mString;
-    private Random mRandom = new Random();
 
-    public static ProductDetailsFragment newInstance(String desc) {
+    public static ProductDetailsFragment newInstance(String desc,String quantity) {
         ProductDetailsFragment fragment = new ProductDetailsFragment();
         Bundle args = new Bundle();
         args.putString(DESCRIPTION_ARG, desc);
+        args.putString(QUANTITY_ARG,quantity);
         fragment.setArguments(args);
         return fragment;
     }
@@ -50,11 +48,14 @@ public class ProductDetailsFragment extends Fragment implements
         rootView = inflater.inflate(R.layout.fragment_product_details, container, false);
         Bundle args = getArguments();
 
-        textViewDescription = (TextView) rootView.findViewById(R.id.textViewDescription);
+        textViewDescription = (TextView) rootView.findViewById(R.id.tvDescription);
+        textViewQuantity=(TextView)rootView.findViewById(R.id.textViewCantidad);
 
         if (args != null) {
             String desc = args.getString(DESCRIPTION_ARG);
+            String quant =args.getString(QUANTITY_ARG);
             textViewDescription.setText(desc);
+            textViewQuantity.setText(quant);
         }
 
         //Cargar array de productos
@@ -69,17 +70,6 @@ public class ProductDetailsFragment extends Fragment implements
         //Edit Text Cantidad add
         editTextQuantityAdd = (EditText) rootView.findViewById(R.id.ed_e_s);
 
-        //Cargar imagenenes productos
-        mImageArray = getResources().obtainTypedArray(R.array.products_images);
-        mImageView = (ImageView) rootView.findViewById(R.id.ivProduct);
-
-        if (savedInstanceState == null) {
-            // Inicializamos la variable contador con el fin de recorrer el array
-            // con los diferentes productos
-            //mCurrentQuestion = ();
-            //textViewQuantity.setText();
-            mImageView.setImageResource(mImageArray.getResourceId(mCurrentQuestion, 0));
-        }
 
         return rootView;
     }
@@ -90,9 +80,9 @@ public class ProductDetailsFragment extends Fragment implements
         }
     }
 
-    public void setImage(int img){
-        if(mImageView!=null) {
-         mImageView.setImageResource(img);
+    public void setQuantity(String mtext){
+        if(textViewQuantity!=null) {
+         textViewQuantity.setText(mtext);
         }
     }
 
@@ -111,29 +101,21 @@ public class ProductDetailsFragment extends Fragment implements
     }
 
     private void addInput() {
-        mString=textViewDescription.getText().toString();
+        mString=textViewQuantity.getText().toString();
         valorb=Integer.parseInt(mString);
         valora = Integer.valueOf(editTextQuantityAdd.getText().toString());
         total = valora + valorb;
         String resultado = String.valueOf(total);
-        textViewDescription.setText(resultado);
+        textViewQuantity.setText(resultado);
     }
 
     private void addOutput() {
-        mString=textViewDescription.getText().toString();
+        mString=textViewQuantity.getText().toString();
         valora=Integer.parseInt(mString);
         valorb = Integer.valueOf(editTextQuantityAdd.getText().toString());
         total = valora - valorb;
         String resultado = String.valueOf(total);
-        textViewDescription.setText(resultado);
+        textViewQuantity.setText(resultado);
     }
-
-
-    public void onDestroy() {
-        super.onDestroy();
-
-        mImageArray.recycle();
-    }
-
 
 }

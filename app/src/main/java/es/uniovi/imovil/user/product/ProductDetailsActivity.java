@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 public class ProductDetailsActivity extends ActionBarActivity {
     public static final String DESCRIPTION = "es.uniovi.imovil.user.product.DESCRIPTION";
+    public static final String QUANTITY = "es.uniovi.imovil.user.product.QUANTITY";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +19,7 @@ public class ProductDetailsActivity extends ActionBarActivity {
 
         Intent intent = getIntent();
         String description = intent.getStringExtra(DESCRIPTION);
+        String quantity = intent.getStringExtra(QUANTITY);
 
         if (findViewById(R.id.fragment_container) != null) {
             // Si estamos restaurando desde un estado previo no hacemos nada
@@ -25,7 +27,7 @@ public class ProductDetailsActivity extends ActionBarActivity {
                 return;
             }
             // Crear el fragmento pasándole el parámetro
-            ProductDetailsFragment fragment = ProductDetailsFragment.newInstance(description);
+            ProductDetailsFragment fragment = ProductDetailsFragment.newInstance(description,quantity);
             // Añadir el fragmento al contenedor 'fragment_container'
             getSupportFragmentManager().beginTransaction().add(R.id.fragment_container, fragment).commit();
         }

@@ -20,7 +20,8 @@ public final class R {
         public static final int descriptions=0x7f060000;
         public static final int products=0x7f060001;
         public static final int products_images=0x7f060002;
-        public static final int types=0x7f060003;
+        public static final int quantity=0x7f060003;
+        public static final int types=0x7f060004;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -1354,7 +1355,6 @@ containing a value of this type.
         public static final int ifRoom=0x7f0a0018;
         public static final int image=0x7f0a0023;
         public static final int imageView=0x7f0a004f;
-        public static final int ivProduct=0x7f0a0047;
         public static final int linearLayout=0x7f0a004a;
         public static final int listMode=0x7f0a0009;
         public static final int list_item=0x7f0a0025;
@@ -1387,11 +1387,12 @@ containing a value of this type.
         public static final int split_action_bar=0x7f0a0007;
         public static final int submit_area=0x7f0a003c;
         public static final int tabMode=0x7f0a000b;
-        public static final int textViewDescription=0x7f0a0044;
+        public static final int textViewCantidad=0x7f0a0045;
         public static final int textViewMesg=0x7f0a004e;
         public static final int title=0x7f0a0027;
         public static final int tvAddEs=0x7f0a0048;
-        public static final int tvCantidad=0x7f0a0045;
+        public static final int tvCantidad=0x7f0a0044;
+        public static final int tvDescription=0x7f0a0047;
         public static final int typeTextView=0x7f0a0051;
         public static final int up=0x7f0a0008;
         public static final int useLogo=0x7f0a0012;
@@ -1501,12 +1502,22 @@ containing a value of this type.
         public static final int product_7=0x7f0c002a;
         public static final int product_8=0x7f0c002b;
         public static final int product_9=0x7f0c002c;
-        public static final int quantity=0x7f0c002d;
-        public static final int t_product_1=0x7f0c002e;
-        public static final int t_product_2=0x7f0c002f;
-        public static final int t_product_3=0x7f0c0030;
-        public static final int title_activity_product_details=0x7f0c0031;
-        public static final int valor_add=0x7f0c0032;
+        public static final int q_product_1=0x7f0c002d;
+        public static final int q_product_10=0x7f0c002e;
+        public static final int q_product_2=0x7f0c002f;
+        public static final int q_product_3=0x7f0c0030;
+        public static final int q_product_4=0x7f0c0031;
+        public static final int q_product_5=0x7f0c0032;
+        public static final int q_product_6=0x7f0c0033;
+        public static final int q_product_7=0x7f0c0034;
+        public static final int q_product_8=0x7f0c0035;
+        public static final int q_product_9=0x7f0c0036;
+        public static final int quantity=0x7f0c0037;
+        public static final int t_product_1=0x7f0c0038;
+        public static final int t_product_2=0x7f0c0039;
+        public static final int t_product_3=0x7f0c003a;
+        public static final int title_activity_product_details=0x7f0c003b;
+        public static final int valor_add=0x7f0c003c;
     }
     public static final class style {
         /** 
