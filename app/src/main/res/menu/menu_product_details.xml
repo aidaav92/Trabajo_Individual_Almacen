@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.uniovi.imovil.user.product.ProductDetailsActivity">
+    <item android:id="@+id/action_about" android:title="@string/action_about"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_quit" android:title="@string/action_quit"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

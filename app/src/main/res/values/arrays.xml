@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="products">
+        <item>@string/product_1</item>
+        <item>@string/product_2</item>
+        <item>@string/product_3</item>
+        <item>@string/product_4</item>
+        <item>@string/product_5</item>
+        <item>@string/product_6</item>
+        <item>@string/product_7</item>
+        <item>@string/product_8</item>
+        <item>@string/product_9</item>
+        <item>@string/product_10</item>
+    </string-array>
+    
+    <string-array name="types">
+        <item>@string/t_product_1</item>
+        <item>@string/t_product_1</item>
+        <item>@string/t_product_1</item>
+        <item>@string/t_product_1</item>
+        <item>@string/t_product_2</item>
+        <item>@string/t_product_2</item>
+        <item>@string/t_product_2</item>
+        <item>@string/t_product_2</item>
+        <item>@string/t_product_3</item>
+        <item>@string/t_product_3</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>@string/d_product_1</item>
+        <item>@string/d_product_2</item>
+        <item>@string/d_product_3</item>
+        <item>@string/d_product_4</item>
+        <item>@string/d_product_5</item>
+        <item>@string/d_product_6</item>
+        <item>@string/d_product_7</item>
+        <item>@string/d_product_8</item>
+        <item>@string/d_product_9</item>
+        <item>@string/d_product_10</item>
+    </string-array>
+
+    <array name="products_images">
+        <item>@mipmap/ic_product_1</item>
+        <item>@mipmap/ic_product_2</item>
+        <item>@mipmap/ic_product_3</item>
+        <item>@mipmap/ic_product_4</item>
+        <item>@mipmap/ic_product_5</item>
+        <item>@mipmap/ic_product_6</item>
+        <item>@mipmap/ic_product_7</item>
+        <item>@mipmap/ic_product_8</item>
+        <item>@mipmap/ic_product_9</item>
+        <item>@mipmap/ic_product_10</item>
+    </array>
+
+
+</resources>

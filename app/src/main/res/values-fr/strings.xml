@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="t_product_3">Céréale</string>
+    <string name="t_product_2">Légumes</string>
+    <string name="t_product_1">Fruit</string>
+    <string name="product_9">Avoine</string>
+    <string name="product_8">Concombres</string>
+    <string name="product_7">Carottes</string>
+    <string name="product_6">Laitue</string>
+    <string name="d_product_6">Laitue</string>
+    <string name="d_product_7">Carottes</string>
+    <string name="d_product_9">Avoine</string>
+    <string name="d_product_8">Concombres</string>
+    <string name="d_product_5">Tomates</string>
+    <string name="product_5">Tomates</string>
+    <string name="product_3">Oranges</string>
+    <string name="d_product_3">Oranges</string>
+    <string name="d_product_2">citron Vert</string>
+    <string name="product_2">citron Vert</string>
+    <string name="product_4">Pamplemousses</string>
+    <string name="d_product_4">Pamplemousses</string>
+    <string name="d_product_1">Bananes</string>
+    <string name="product_1">Bananes</string>
+    <string name="product_10">Blé</string>
+    <string name="d_product_10">Blé</string>
+    <string name="default_product_format">Produit %d</string>
+    <string name="hello_world">Bonjour Le Monde!</string>
+    <string name="default_type_format">Type %d</string>
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="valor_add">Ajouter produit</string>
+    <string name="action_about">Environ</string>
+    <string name="action_quit">Sortie</string><string name="about_info">Application développée par Aida Albuerne Vega pour le sujet de linformatique mobile , Cours 2014-2015. \n \ n
+Source : https://github.com/aidaav92/StockAlmacen</string>
+    <string name="quantity">Quantité:</string>
+    <string name="app_name">Mon magasin</string>
+</resources>

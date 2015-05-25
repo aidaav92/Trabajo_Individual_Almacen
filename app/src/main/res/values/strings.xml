@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mi Almacen</string>
+
+    <!-- Strings nombres de productos -->
+    <string name="product_1">Platanos</string>
+    <string name="product_2">Limones</string>
+    <string name="product_3">Naranjas</string>
+    <string name="product_4">Pomelos</string>
+    <string name="product_5">Tomates</string>
+    <string name="product_6">Lechugas</string>
+    <string name="product_7">Zanahorias</string>
+    <string name="product_8">Pepinos</string>
+    <string name="product_9">Avena</string>
+    <string name="product_10">Trigo</string>
+
+    <!-- Fin strings tipos de productos -->
+
+    <!-- Strings nombres de productos -->
+    <string name="t_product_1">Fruta</string>
+    <string name="t_product_2">Verdura</string>
+    <string name="t_product_3">Cereal</string>
+    <!-- Fin strings tipos de productos -->
+
+    <!-- Strings nombres de descripciones de productos -->
+    <string name="d_product_1">5 </string>
+    <string name="d_product_2">25</string>
+    <string name="d_product_3">67</string>
+    <string name="d_product_4">890</string>
+    <string name="d_product_5">345</string>
+    <string name="d_product_6">245</string>
+    <string name="d_product_7">90</string>
+    <string name="d_product_8">0</string>
+    <string name="d_product_9">33</string>
+    <string name="d_product_10">23
+
+
+
+    </string>
+    <!-- Fin strings tipos de descripciones de productos -->
+
+
+
+    <string name="default_product_format">Producto %d</string>
+    <string name="default_type_format">Tipo %d</string>
+    <string name="title_activity_product_details" translatable="false">Product DetailsActivity</string>
+    <string name="hello_world">Hola mundo!</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_about">Acerca de...</string>
+    <string name="about_info">Aplicación desarrollada por Aida Albuerne Vega para la asignatura de Informática Móvil , Curso 2014–2015.\n\nCódigo fuente: https://github.com/aidaav92/StockAlmacen</string>
+    <string name="hello_blank_fragment">Hola fragmento vacío</string>
+    <string name="action_quit">Salir</string>
+
+    <!--Srings fragment product details -->
+    <string name="valor_add">Añadir producto</string>
+    <string name="quantity"> Cantidad:</string>
+
+
+
+</resources>

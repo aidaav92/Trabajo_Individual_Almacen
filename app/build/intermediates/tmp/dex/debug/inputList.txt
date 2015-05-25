@@ -1,0 +1,5 @@
+C:\Users\Aida\Desktop\Courses\app\build\intermediates\classes\debug
+C:\Users\Aida\Desktop\Courses\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-e92b0ffcde7c275e045fe4a744a96f53d4bced35.jar
+C:\Users\Aida\Desktop\Courses\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-1ffdabd888b1ff530cd9d760c7a7676a26612a60.jar
+C:\Users\Aida\Desktop\Courses\app\build\intermediates\pre-dexed\debug\classes-bdcd8e3d48a96c60348f0f4188ec0dea8d4f1a34.jar
+C:\Users\Aida\Desktop\Courses\app\build\intermediates\pre-dexed\debug\classes-c96d8988e4b1426efd88127f8bf42690bebd9f6e.jar
