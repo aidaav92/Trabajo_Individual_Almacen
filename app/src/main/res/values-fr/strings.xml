@@ -30,10 +30,16 @@ Il est plus petit et plus doux que de pamplemousse ou de pamplemousse et plus gr
     <string name="valor_add">Ajouter produit</string>
     <string name="action_about">Environ</string>
     <string name="action_quit">Sortie</string><string name="about_info">Application développée par Aida Albuerne Vega pour le sujet de linformatique mobile , Cours 2014-2015. \n \ n
-Source : https://github.com/aidaav92/StockAlmacen</string>
+Source : https://github.com/aidaav92/Trabajo_Individual_Almacen</string>
     <string name="quantity">Quantité:</string>
     <string name="app_name">Mon magasin</string>
     <string name="d_product_9">Gruau est un genre de plantes de la famille des graminées , utilisé comme nourriture et de fourrage .  Alors que l\'avoine premiers temps avaient pas l\'importance de blé ou d\'orge , en Asie centrale a été cultivé en grande quantité , mais a été considéré comme une mauvaise herbe pour ceux . Dans les tests de recherche archéologique de l\'utilisation de l\'avoine en Europe centrale dans l\'âge du bronze ont été trouvées . Ont également été constaté que les grains de céréales dans les fouilles égyptiennes , bien qu\'il ne pouvait pas prouver qu\'il a été cultivé .</string>
     <string name="product_9">Avoine</string>
     <string name="d_product_10">Blé (Triticum spp) est le terme pour le grain entier, à la fois cultivée et sauvage, appartenant au genre Triticum; Ils sont des plantes annuelles dans la famille des graminées, largement cultivées dans tout le mot de mundo.La de blé désigne à la fois la plante et ses graines comestibles, comme cela se passe avec les noms des autres céréales.  Blé (jaune) est l\'un des trois céréale la plus produite dans le monde, avec le maïs et le riz, et le plus largement consommé par les humains dans la civilisation occidentale depuis l\'Antiquité. Le grain de blé est utilisé pour faire de la farine, la farine de blé entier, de la semoule, de la bière (voir aussi: Histoire de la bière) et une variété de produits alimentaires.  Le mot «blé» Triticum vient du mot latin, qui signifie, «terrain» «cassé» ou «battus», se référant à l\'activité à faire pour séparer l\'enveloppe du grain de blé qui la recouvre. Triticum signifie, par conséquent, le battage du grain nécessaire pour être consommée; comme le millet milium dérivé du latin, qui signifie «terre, blanchi", qui est, le grain, il est nécessaire de moudre à être consommé. Blé (Triticum) est, par conséquent, l\'un des plus anciens mots pour les céréales (celles relatives à meulage ou fraisage). </string>
+    <string name="c_product_1">Orange</string>
+    <string name="c_product_2">Jaune</string>
+    <string name="c_product_3">Vert</string>
+    <string name="c_product_4" translatable="false">Brun</string>
+    <string name="c_product_5">Rouge</string>
+    <string name="color">Couleur du produit</string>
 </resources>

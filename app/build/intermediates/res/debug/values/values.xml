@@ -2,6 +2,18 @@
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <!-- From: file:/C:/Users/Aida/Desktop/Courses/app/src/main/res/values/arrays.xml -->
     <eat-comment/>
+    <string-array name="colours">
+        <item>@string/c_product_2</item>
+        <item>@string/c_product_2</item>
+        <item>@string/c_product_1</item>
+        <item>@string/c_product_1</item>
+        <item>@string/c_product_5</item>
+        <item>@string/c_product_3</item>
+        <item>@string/c_product_1</item>
+        <item>@string/c_product_3</item>
+        <item>@string/c_product_4</item>
+        <item>@string/c_product_4</item>
+    </string-array>
     <string-array name="descriptions">
         <item>@string/d_product_1</item>
         <item>@string/d_product_2</item>
@@ -228,11 +240,17 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <!-- From: file:/C:/Users/Aida/Desktop/Courses/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="about_info">Aplicación desarrollada por Aida Albuerne Vega para la asignatura de Informática Móvil , Curso 2014–2015.\n\nCódigo fuente: https://github.com/aidaav92/StockAlmacen</string>
+    <string name="about_info">Aplicación desarrollada por Aida Albuerne Vega para la asignatura de Informática Móvil , Curso 2014–2015.\n\nCódigo fuente: https://github.com/aidaav92/Trabajo_Individual_Almacen</string>
     <string name="action_about">Acerca de...</string>
     <string name="action_quit">Salir</string>
     <string name="action_settings">Configuración</string>
     <string name="app_name">Mi Almacen</string>
+    <string name="c_product_1">Naranja</string>
+    <string name="c_product_2">Amarillo</string>
+    <string name="c_product_3">Verde</string>
+    <string name="c_product_4">Marrón</string>
+    <string name="c_product_5">Rojo</string>
+    <string name="color">Color producto</string>
     <string name="d_product_1">El plátano es una planta herbácea, que pertenece a la familia musácea, y que ostenta normalmente entre 3 o 4 metros de alto. Su tallo está rodeado por las vainas de las hojas y el fruto que resulta de él, que es una baya que tiene la particularidad de crecer en racimos, es ampliamente apreciado y consumido en el mundo como alimento. Popularmente se lo conoce como banano o banana.</string>
     <string name="d_product_10">Trigo (Triticum spp) es el término que designa al conjunto de cereales, tanto cultivados como silvestres, que pertenecen al género Triticum; son plantas anuales de la familia de las gramíneas, ampliamente cultivadas en todo el mundo.La palabra trigo designa tanto a la planta como a sus semillas comestibles, tal y como ocurre con los nombres de otros cereales.  El trigo (de color amarillo) es uno de los tres granos más ampliamente producidos globalmente, junto al maíz y el arroz, y el más ampliamente consumido por el hombre en la civilización occidental desde la antigüedad. El grano del trigo es utilizado para hacer harina, harina integral, sémola, cerveza (véase también: Historia de la cerveza) y una gran variedad de productos alimenticios.  La palabra «trigo» proviene del vocablo latino triticum, que significa ‘quebrado’, ‘triturado’ o ‘trillado’, haciendo referencia a la actividad que se debe realizar para separar el grano de trigo de la cascarilla que lo recubre. Triticum significa, por lo tanto, el grano que es necesario trillar para poder ser consumido; tal como el mijo deriva del latín milium, que significa "molido, molturado", o sea, el grano que es necesario moler para poder ser consumido. El trigo (triticum) es, por lo tanto, una de las palabras más ancestrales para denominar a los cereales (las que se referían a su trituración o molturación).</string>
     <string name="d_product_2">Citrus × limon, el limonero, es un pequeño árbol frutal perenne que puede alcanzar más de 4 m de altura. Su fruto es el limón (en árabe: ليمون, laimún, del persa laimú o laimún1 ) una fruta comestible de sabor ácido y extremadamente fragante que se usa en la alimentación. El limonero posee una madera con corteza lisa y madera dura y amarillenta muy apreciada para trabajos de ebanistería. Botánicamente, es una especie híbrida entre C. medica (cidro o limón francés) y C. aurantium (naranjo amargo).2 Aunque otros autores creen que es el resultado de diversos retrocruces entre Citrus medica y Citrus × aurantifolia.</string>
@@ -1218,7 +1236,7 @@
     <!-- From: file:/C:/Users/Aida/Desktop/Courses/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Subtitulo">
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">25sp</item>
         <item name="android:textColor">#424242</item>
         <item name="android:textStyle"> bold|italic</item>
         <item name="android:fontFamily" ns1:ignore="NewApi">sans-serif-light</item>
@@ -1294,7 +1312,7 @@
     <eat-comment/>
     <style name="Titulo">
         <item name="android:textSize">30sp</item>
-        <item name="android:textColor">#424242</item>
+        <item name="android:textColor"> #FFAA66CC </item>
         <item name="android:textStyle"> bold|italic</item>
         <item name="android:fontFamily" ns1:ignore="NewApi">sans-serif-light</item>
     </style>

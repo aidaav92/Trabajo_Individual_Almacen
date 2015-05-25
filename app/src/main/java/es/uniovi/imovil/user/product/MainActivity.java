@@ -29,7 +29,7 @@ public class MainActivity extends ActionBarActivity implements ProductListFragme
     }
 
 	private List<Product> createProductList(String[] names, String[] types,
-                                            String[] descriptions,String[] quantity) {
+                                            String[] descriptions,String[] colours,String[] quantity) {
 		
 		if (names.length != types.length) {
 			throw new IllegalStateException();
@@ -37,7 +37,7 @@ public class MainActivity extends ActionBarActivity implements ProductListFragme
 			
 		ArrayList<Product> products = new ArrayList<Product>(names.length);
 		for (int i = 0; i < names.length; i++) {
-			products.add(new Product(names[i], types[i], descriptions[i],quantity[i]));
+			products.add(new Product(names[i], types[i], descriptions[i],colours[i],quantity[i]));
 		}
 		return products;
 	}
@@ -67,14 +67,18 @@ public class MainActivity extends ActionBarActivity implements ProductListFragme
     public void onProductSelected(Product product) {
         if ( !mTwoPanes ) {
             Intent intent = new Intent(this, ProductDetailsActivity.class);
+            intent.putExtra(ProductDetailsActivity.NAME,product.getName());
             intent.putExtra(ProductDetailsActivity.QUANTITY,product.getQuantity());
+            intent.putExtra(ProductDetailsActivity.COLOUR,product.getColour());
             intent.putExtra(ProductDetailsActivity.DESCRIPTION, product.getDescription());
             startActivity(intent);
         } else {
             FragmentManager fragmentManager = getSupportFragmentManager();
             ProductDetailsFragment fragment = (ProductDetailsFragment)
                     fragmentManager.findFragmentById(R.id.product_details_frag);
+            fragment.setName(product.getName());
             fragment.setQuantity(product.getQuantity());
+            fragment.setColour(product.getColour());
             fragment.setDescription(product.getDescription());
         }
 

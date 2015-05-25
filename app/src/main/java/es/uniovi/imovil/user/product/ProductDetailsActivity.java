@@ -9,8 +9,11 @@ import android.widget.Toast;
 
 
 public class ProductDetailsActivity extends ActionBarActivity {
+    public static final String NAME = "es.uniovi.imovil.user.product.NAME";
     public static final String DESCRIPTION = "es.uniovi.imovil.user.product.DESCRIPTION";
+    public static final String COLOUR = "es.uniovi.imovil.user.product.COLOUR";
     public static final String QUANTITY = "es.uniovi.imovil.user.product.QUANTITY";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +21,9 @@ public class ProductDetailsActivity extends ActionBarActivity {
         setContentView(R.layout.activity_product_details);
 
         Intent intent = getIntent();
+        String name=intent.getStringExtra(NAME);
         String description = intent.getStringExtra(DESCRIPTION);
+        String colour = intent.getStringExtra(COLOUR);
         String quantity = intent.getStringExtra(QUANTITY);
 
         if (findViewById(R.id.fragment_container) != null) {
@@ -27,7 +32,7 @@ public class ProductDetailsActivity extends ActionBarActivity {
                 return;
             }
             // Crear el fragmento pasándole el parámetro
-            ProductDetailsFragment fragment = ProductDetailsFragment.newInstance(description,quantity);
+            ProductDetailsFragment fragment = ProductDetailsFragment.newInstance(name,description,colour,quantity);
             // Añadir el fragmento al contenedor 'fragment_container'
             getSupportFragmentManager().beginTransaction().add(R.id.fragment_container, fragment).commit();
         }

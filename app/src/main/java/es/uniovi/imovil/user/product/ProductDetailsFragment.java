@@ -16,20 +16,23 @@ import java.util.Random;
 
 public class ProductDetailsFragment extends Fragment implements
         View.OnClickListener {
+    private static final String NAME_ARG="name";
     private static final String DESCRIPTION_ARG = "description";
+    private static final String COLOUR_ARG="colour";
     private static final String QUANTITY_ARG="quantity";
 
-    private TextView textViewDescription, textViewQuantity;
+    private TextView textViewDescription, textViewQuantity,textViewName,textViewColour;
     private EditText editTextQuantityAdd;
     private Button btninput, btnpoutput;
-    private String[] mproductstring;
-    private int valora, valorb, total, mCurrentQuestion;
+    private int valora, valorb, total;
     private String mString;
 
-    public static ProductDetailsFragment newInstance(String desc,String quantity) {
+    public static ProductDetailsFragment newInstance(String name, String desc,String colour,String quantity) {
         ProductDetailsFragment fragment = new ProductDetailsFragment();
         Bundle args = new Bundle();
+        args.putString(NAME_ARG,name);
         args.putString(DESCRIPTION_ARG, desc);
+        args.putString(COLOUR_ARG,colour);
         args.putString(QUANTITY_ARG,quantity);
         fragment.setArguments(args);
         return fragment;
@@ -47,19 +50,21 @@ public class ProductDetailsFragment extends Fragment implements
         View rootView;
         rootView = inflater.inflate(R.layout.fragment_product_details, container, false);
         Bundle args = getArguments();
-
+        textViewName =(TextView) rootView.findViewById(R.id.tvName);
         textViewDescription = (TextView) rootView.findViewById(R.id.tvDescription);
+        textViewColour=(TextView) rootView.findViewById(R.id.tvColourDesc);
         textViewQuantity=(TextView)rootView.findViewById(R.id.textViewCantidad);
 
         if (args != null) {
+            String name= args.getString(NAME_ARG);
             String desc = args.getString(DESCRIPTION_ARG);
+            String colour=args.getString(COLOUR_ARG);
             String quant =args.getString(QUANTITY_ARG);
+            textViewName.setText(name);
             textViewDescription.setText(desc);
+            textViewColour.setText(colour);
             textViewQuantity.setText(quant);
         }
-
-        //Cargar array de productos
-        mproductstring = getResources().getStringArray(R.array.products);
 
         // Botones y sus respectivos listeners
         btninput = (Button) rootView.findViewById(R.id.buttonInput);
@@ -70,8 +75,13 @@ public class ProductDetailsFragment extends Fragment implements
         //Edit Text Cantidad add
         editTextQuantityAdd = (EditText) rootView.findViewById(R.id.ed_e_s);
 
-
         return rootView;
+    }
+
+    public void setName(String ntext){
+        if(textViewName!=null){
+            textViewName.setText(ntext);
+        }
     }
 
     public void setDescription(String text) {
@@ -83,6 +93,12 @@ public class ProductDetailsFragment extends Fragment implements
     public void setQuantity(String mtext){
         if(textViewQuantity!=null) {
          textViewQuantity.setText(mtext);
+        }
+    }
+
+    public void setColour(String ctext){
+        if(textViewColour!=null){
+            textViewColour.setText(ctext);
         }
     }
 

@@ -46,6 +46,10 @@
     <string name="q_product_10" translatable="false">23 </string>
     <!-- Fin strings tipos de descripciones de productos -->
 
+    <!-- Strings colores de productos -->
+    <string name="c_product_4">Marrón</string>
+
+    <!-- Fin strings tipos de descripciones de productos -->
 
 
     <string name="default_product_format">Producto %d</string>
@@ -54,17 +58,22 @@
     <string name="hello_world">Hola mundo!</string>
     <string name="action_settings">Configuración</string>
     <string name="action_about">Acerca de...</string>
-    <string name="about_info">Aplicación desarrollada por Aida Albuerne Vega para la asignatura de Informática Móvil , Curso 2014–2015.\n\nCódigo fuente: https://github.com/aidaav92/StockAlmacen</string>
+    <string name="about_info">Aplicación desarrollada por Aida Albuerne Vega para la asignatura de Informática Móvil , Curso 2014–2015.\n\nCódigo fuente: https://github.com/aidaav92/Trabajo_Individual_Almacen</string>
     <string name="hello_blank_fragment">Hola fragmento vacío</string>
     <string name="action_quit">Salir</string>
 
     <!--Srings fragment product details -->
     <string name="valor_add">Añadir producto</string>
     <string name="quantity"> Cantidad:</string>
+    <string name="color">Color producto</string>
     <string name="d_product_3">La naranja es una fruta cítrica comestible obtenida del naranjo dulce (Citrus × sinensis), del naranjo amargo (Citrus × aurantium) y de naranjos de otras especies o híbridos, antiguos híbridos asiáticos originarios de India, Vietnam o el sureste de China.1 Es un hesperidio carnoso de cáscara más o menos gruesa y endurecida, y su pulpa está formada típicamente por once gajos u hollejos llenos de jugo, el cual contiene mucha vitamina C, flavonoides y aceites esenciales.  Es más pequeña y dulce que el pomelo o toronja y más grande, aunque menos perfumada, que la mandarina. Existen numerosas variedades de naranjas, siendo la mayoría híbridos producidos a partir de las especies Citrus maxima, Citrus reticulata (mandarina) y Citrus medica (cidro).</string>
     <string name="d_product_5">Solanum lycopersicum, conocido comúnmente como jitomate, tomate o tomatera. Es una especie de la familia de las solanáceas originaria de América (Perú o México) y cultivada en todo el mundo para su consumo tanto fresco como procesado de diferentes modos (salsa, puré, zumo, deshidratado, enlatado).</string>
     <string name="d_product_9">Avena es un género de plantas de la familia de las poáceas, utilizada como alimento y como forraje.  Si bien en épocas tempranas la avena no tuvo la importancia del trigo o la cebada, en Asia Central se cultivaba en buena cantidad, aunque se la consideraba una mala hierba para aquellos. En búsquedas arqueológicas se encontraron pruebas del uso de la avena en Europa Central en la Edad de Bronce. También fueron encontrados granos de este cereal en excavaciones egipcias, aunque no se pudo probar que fuera cultivada.</string>
     <string name="d_product_10">Trigo (Triticum spp) es el término que designa al conjunto de cereales, tanto cultivados como silvestres, que pertenecen al género Triticum; son plantas anuales de la familia de las gramíneas, ampliamente cultivadas en todo el mundo.La palabra trigo designa tanto a la planta como a sus semillas comestibles, tal y como ocurre con los nombres de otros cereales.  El trigo (de color amarillo) es uno de los tres granos más ampliamente producidos globalmente, junto al maíz y el arroz, y el más ampliamente consumido por el hombre en la civilización occidental desde la antigüedad. El grano del trigo es utilizado para hacer harina, harina integral, sémola, cerveza (véase también: Historia de la cerveza) y una gran variedad de productos alimenticios.  La palabra «trigo» proviene del vocablo latino triticum, que significa ‘quebrado’, ‘triturado’ o ‘trillado’, haciendo referencia a la actividad que se debe realizar para separar el grano de trigo de la cascarilla que lo recubre. Triticum significa, por lo tanto, el grano que es necesario trillar para poder ser consumido; tal como el mijo deriva del latín milium, que significa "molido, molturado", o sea, el grano que es necesario moler para poder ser consumido. El trigo (triticum) es, por lo tanto, una de las palabras más ancestrales para denominar a los cereales (las que se referían a su trituración o molturación).</string>
+    <string name="c_product_1">Naranja</string>
+    <string name="c_product_2">Amarillo</string>
+    <string name="c_product_3">Verde</string>
+    <string name="c_product_5">Rojo</string>
 
 
 </resources>

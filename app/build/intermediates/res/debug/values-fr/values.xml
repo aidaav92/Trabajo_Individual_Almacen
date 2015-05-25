@@ -20,11 +20,17 @@
     <!-- From: file:/C:/Users/Aida/Desktop/Courses/app/src/main/res/values-fr/strings.xml -->
     <eat-comment/>
     <string name="about_info">Application développée par Aida Albuerne Vega pour le sujet de linformatique mobile , Cours 2014-2015. \n \ n
-Source : https://github.com/aidaav92/StockAlmacen</string>
+Source : https://github.com/aidaav92/Trabajo_Individual_Almacen</string>
     <string name="action_about">Environ</string>
     <string name="action_quit">Sortie</string>
     <string name="action_settings">Paramètres</string>
     <string name="app_name">Mon magasin</string>
+    <string name="c_product_1">Orange</string>
+    <string name="c_product_2">Jaune</string>
+    <string name="c_product_3">Vert</string>
+    <string name="c_product_4" translatable="false">Brun</string>
+    <string name="c_product_5">Rouge</string>
+    <string name="color">Couleur du produit</string>
     <string name="d_product_1"> banane est une plante herbacée de la famille des Musaceae , et détient généralement entre 3 ou 4 mètres de haut . Sa tige est entourée par des gaines de feuilles et de fruits qui en découlent , ce qui est une baie qui est unique à poussent en grappes , est largement apprécié et consommé dans le monde entier comme nourriture. Populairement connu comme la banane ou de banane .</string>
     <string name="d_product_10">Blé (Triticum spp) est le terme pour le grain entier, à la fois cultivée et sauvage, appartenant au genre Triticum; Ils sont des plantes annuelles dans la famille des graminées, largement cultivées dans tout le mot de mundo.La de blé désigne à la fois la plante et ses graines comestibles, comme cela se passe avec les noms des autres céréales.  Blé (jaune) est l\'un des trois céréale la plus produite dans le monde, avec le maïs et le riz, et le plus largement consommé par les humains dans la civilisation occidentale depuis l\'Antiquité. Le grain de blé est utilisé pour faire de la farine, la farine de blé entier, de la semoule, de la bière (voir aussi: Histoire de la bière) et une variété de produits alimentaires.  Le mot «blé» Triticum vient du mot latin, qui signifie, «terrain» «cassé» ou «battus», se référant à l\'activité à faire pour séparer l\'enveloppe du grain de blé qui la recouvre. Triticum signifie, par conséquent, le battage du grain nécessaire pour être consommée; comme le millet milium dérivé du latin, qui signifie «terre, blanchi", qui est, le grain, il est nécessaire de moudre à être consommé. Blé (Triticum) est, par conséquent, l\'un des plus anciens mots pour les céréales (celles relatives à meulage ou fraisage). </string>
     <string name="d_product_2">Citron, citron est un petit arbre fruitier à feuilles persistantes qui peut atteindre plus de 4 m de haut . Son fruit est citron ( arabe: ليمون , Laimun , perse ou Laimu laimún1 ) un acide de fruit comestible et la saveur très parfumée qui est utilisé dans les aliments. L\'arbre de citron a une écorce lisse et le bois prisé pour son travail acharné de l\'armoire et le bois jaunâtre. Botanique, il est une espèce hybride entre C. medica ( citron ou de citron français ) et C. aurantium ( orange amère ) .2 Bien que d\'autres croient qu\'il est le résultat de diverses rétrocroisements entre Citrus medica et citron vert .</string>

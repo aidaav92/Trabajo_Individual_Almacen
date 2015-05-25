@@ -36,8 +36,14 @@ It is smaller and sweeter than grapefruit or grapefruit and larger, but less fra
     <string name="t_product_3">Cereal</string>
     <string name="action_about">About</string>
     <string name="action_quit">Quit</string><string name="about_info">Application developed by Aida Albuerne Vega for the subject of Mobile Computing , Course 2014-2015 . \ N \ n
-Source : https://github.com/aidaav92/StockAlmacen</string>
+Source : https://github.com/aidaav92/Trabajo_Individual_Almacen</string>
     <string name="quantity">Quantity:</string>
     <string name="d_product_4">Grapefruit , also known as grapefruit or grapefruit , is the namesake fruit tree belonging to the genus Citrus of the family Rutaceae . This family includes more than 1,600 species. The genus Citrus is the most important family and consists of about 20 species all edible fruit abundant in vitamin C , flavonoids and essential oils. The fruits, called Espérides , are unique in that the pulp is formed by numerous vesicles full of juice.</string>
     <string name="d_product_9">Oatmeal is a genus of plants of the family of grasses , used as food and fodder.  While oats early times had not the importance of wheat or barley , in Central Asia it was grown in large amount , but was considered a weed for those . In archaeological research tests the use of oats in Central Europe in the Bronze Age were found. Were also found that cereal grains in Egyptian excavations, although it could not prove it was cultivated.</string>
+    <string name="c_product_1">Orange</string>
+    <string name="c_product_2">Yellow</string>
+    <string name="c_product_3">Green</string>
+    <string name="c_product_4" translatable="false">Brown</string>
+    <string name="c_product_5" translatable="false">Red</string>
+    <string name="color">Product colour</string>
 </resources>
