@@ -289,8 +289,8 @@
     <string name="t_product_1">Fruta</string>
     <string name="t_product_2">Verdura</string>
     <string name="t_product_3">Cereal</string>
-    <string name="title_activity_product_details" translatable="false">Product DetailsActivity</string>
-    <string name="valor_add">Añadir producto</string>
+    <string name="title_activity_product_details">Detalles del producto</string>
+    <string name="valor_add">Añadir producto (Kg):</string>
     <!-- From: file:/C:/Users/Aida/Desktop/Courses/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light">

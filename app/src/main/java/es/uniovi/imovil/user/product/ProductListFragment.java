@@ -19,8 +19,8 @@ public class ProductListFragment extends Fragment implements AdapterView.OnItemC
     private Callbacks mCallback;
 
     public static ProductListFragment newInstance() {
-        ProductListFragment fragment = new ProductListFragment();
-        return fragment;
+        ProductListFragment frag = new ProductListFragment();
+        return frag;
     }
 
     public ProductListFragment() {
@@ -61,7 +61,7 @@ public class ProductListFragment extends Fragment implements AdapterView.OnItemC
             throw new IllegalStateException();
         }
 
-        ArrayList<Product> products = new ArrayList<Product>(names.length);
+        ArrayList<Product> products = new ArrayList<>(names.length);
         for (int i = 0; i < names.length; i++) {
             products.add(new Product(names[i], types[i], descriptions[i],colours[i],quantity[i]));
         }
@@ -73,7 +73,7 @@ public class ProductListFragment extends Fragment implements AdapterView.OnItemC
     }
 
     public interface Callbacks {
-        public void onProductSelected(Product product);
+         void onProductSelected(Product product);
     }
 
     @Override
@@ -85,4 +85,6 @@ public class ProductListFragment extends Fragment implements AdapterView.OnItemC
             throw new ClassCastException(activity.toString() + " must implement Callbacks");
         }
     }
+
+
 }

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -13,7 +14,6 @@ public class ProductDetailsActivity extends ActionBarActivity {
     public static final String DESCRIPTION = "es.uniovi.imovil.user.product.DESCRIPTION";
     public static final String COLOUR = "es.uniovi.imovil.user.product.COLOUR";
     public static final String QUANTITY = "es.uniovi.imovil.user.product.QUANTITY";
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +65,21 @@ public class ProductDetailsActivity extends ActionBarActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onSaveInstanceState(Bundle guardaEstado) {
+        super.onSaveInstanceState(guardaEstado);
+        //guardamos en la variable t el texto del campo EditText
+        final TextView text = (TextView)findViewById(R.id.textViewCantidad);
+        CharSequence userText = text.getText();
+        guardaEstado.putCharSequence("savedText", userText);
+    }
+
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+
+        final TextView text = (TextView)findViewById(R.id.textViewCantidad);
+        CharSequence userText = savedInstanceState.getCharSequence("savedText");
+        text.setText(userText);
     }
 
 }

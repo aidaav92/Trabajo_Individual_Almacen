@@ -47,14 +47,14 @@
     <!-- Fin strings tipos de descripciones de productos -->
 
     <!-- Strings colores de productos -->
+
     <string name="c_product_4">Marrón</string>
 
-    <!-- Fin strings tipos de descripciones de productos -->
+    <!-- Fin strings tipos de colores de productos -->
 
 
     <string name="default_product_format">Producto %d</string>
     <string name="default_type_format">Tipo %d</string>
-    <string name="title_activity_product_details" translatable="false">Product DetailsActivity</string>
     <string name="hello_world">Hola mundo!</string>
     <string name="action_settings">Configuración</string>
     <string name="action_about">Acerca de...</string>
@@ -63,7 +63,7 @@
     <string name="action_quit">Salir</string>
 
     <!--Srings fragment product details -->
-    <string name="valor_add">Añadir producto</string>
+    <string name="valor_add">Añadir producto (Kg):</string>
     <string name="quantity"> Cantidad:</string>
     <string name="color">Color producto</string>
     <string name="d_product_3">La naranja es una fruta cítrica comestible obtenida del naranjo dulce (Citrus × sinensis), del naranjo amargo (Citrus × aurantium) y de naranjos de otras especies o híbridos, antiguos híbridos asiáticos originarios de India, Vietnam o el sureste de China.1 Es un hesperidio carnoso de cáscara más o menos gruesa y endurecida, y su pulpa está formada típicamente por once gajos u hollejos llenos de jugo, el cual contiene mucha vitamina C, flavonoides y aceites esenciales.  Es más pequeña y dulce que el pomelo o toronja y más grande, aunque menos perfumada, que la mandarina. Existen numerosas variedades de naranjas, siendo la mayoría híbridos producidos a partir de las especies Citrus maxima, Citrus reticulata (mandarina) y Citrus medica (cidro).</string>
@@ -74,6 +74,7 @@
     <string name="c_product_2">Amarillo</string>
     <string name="c_product_3">Verde</string>
     <string name="c_product_5">Rojo</string>
+    <string name="title_activity_product_details">Detalles del producto</string>
 
 
 </resources>

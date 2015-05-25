@@ -11,8 +11,8 @@ Source : https://github.com/aidaav92/Trabajo_Individual_Almacen</string>
     <string name="c_product_1">Orange</string>
     <string name="c_product_2">Yellow</string>
     <string name="c_product_3">Green</string>
-    <string name="c_product_4" translatable="false">Brown</string>
-    <string name="c_product_5" translatable="false">Red</string>
+    <string name="c_product_4">Brown</string>
+    <string name="c_product_5">Red</string>
     <string name="color">Product colour</string>
     <string name="d_product_1">The banana is a herbaceous plant belonging to the Musaceae family, and usually holds between 3 or 4 meters high . Its stem is surrounded by sheaths of leaves and fruit resulting from it, which is a berry that is unique to grow in clusters, it is widely appreciated and consumed worldwide as food. Popularly it is known as banana </string>
     <string name="d_product_10">Wheat (Triticum spp) is the term for the whole grain, both cultivated and wild, belonging to the genus Triticum; They are annual plants in the grass family, widely cultivated throughout the wheat mundo.La word designates both the plant and its edible seeds, as happens with the names of other cereals.
@@ -48,5 +48,6 @@ It is smaller and sweeter than grapefruit or grapefruit and larger, but less fra
     <string name="t_product_1">Fruit</string>
     <string name="t_product_2">Vegetable</string>
     <string name="t_product_3">Cereal</string>
+    <string name="title_activity_product_details">Product details</string>
     <string name="valor_add">Add product</string>
 </resources>

@@ -39,7 +39,8 @@ Source : https://github.com/aidaav92/Trabajo_Individual_Almacen</string>
     <string name="c_product_1">Orange</string>
     <string name="c_product_2">Jaune</string>
     <string name="c_product_3">Vert</string>
-    <string name="c_product_4" translatable="false">Brun</string>
+    <string name="c_product_4">Brun</string>
     <string name="c_product_5">Rouge</string>
     <string name="color">Couleur du produit</string>
+    <string name="title_activity_product_details">Détails du produit</string>
 </resources>

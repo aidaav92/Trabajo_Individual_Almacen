@@ -2,6 +2,7 @@ package es.uniovi.imovil.user.product;
 
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,7 +13,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.Random;
-
 
 public class ProductDetailsFragment extends Fragment implements
         View.OnClickListener {
@@ -25,15 +25,15 @@ public class ProductDetailsFragment extends Fragment implements
     private EditText editTextQuantityAdd;
     private Button btninput, btnpoutput;
     private int valora, valorb, total;
-    private String mString;
+    private String mString,t;
 
     public static ProductDetailsFragment newInstance(String name, String desc,String colour,String quantity) {
         ProductDetailsFragment fragment = new ProductDetailsFragment();
         Bundle args = new Bundle();
         args.putString(NAME_ARG,name);
         args.putString(DESCRIPTION_ARG, desc);
-        args.putString(COLOUR_ARG,colour);
-        args.putString(QUANTITY_ARG,quantity);
+        args.putString(COLOUR_ARG, colour);
+        args.putString(QUANTITY_ARG, quantity);
         fragment.setArguments(args);
         return fragment;
     }

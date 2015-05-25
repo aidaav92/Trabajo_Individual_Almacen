@@ -28,7 +28,7 @@ Source : https://github.com/aidaav92/Trabajo_Individual_Almacen</string>
     <string name="c_product_1">Orange</string>
     <string name="c_product_2">Jaune</string>
     <string name="c_product_3">Vert</string>
-    <string name="c_product_4" translatable="false">Brun</string>
+    <string name="c_product_4">Brun</string>
     <string name="c_product_5">Rouge</string>
     <string name="color">Couleur du produit</string>
     <string name="d_product_1"> banane est une plante herbacée de la famille des Musaceae , et détient généralement entre 3 ou 4 mètres de haut . Sa tige est entourée par des gaines de feuilles et de fruits qui en découlent , ce qui est une baie qui est unique à poussent en grappes , est largement apprécié et consommé dans le monde entier comme nourriture. Populairement connu comme la banane ou de banane .</string>
@@ -61,5 +61,6 @@ Il est plus petit et plus doux que de pamplemousse ou de pamplemousse et plus gr
     <string name="t_product_1">Fruit</string>
     <string name="t_product_2">Légumes</string>
     <string name="t_product_3">Céréale</string>
+    <string name="title_activity_product_details">Détails du produit</string>
     <string name="valor_add">Ajouter produit</string>
 </resources>
